@@ -45,7 +45,6 @@ submit_*.sh
 *_slurm.sh
 
 # Large files
-*.pth
 *.pt
 *.ckpt
 
