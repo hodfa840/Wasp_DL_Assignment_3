@@ -1,0 +1,19 @@
+name: flow_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::pytorch-cuda=12.1
+  - numpy>=1.24
+  - matplotlib
+  - pillow
+  - tqdm
+  - scipy
+  - pip
+  - pip:
+    - requests
